@@ -27,6 +27,8 @@ def encoder(encode):
         return_string = return_string + str(add)
     return return_string
 
+#Samuel DeRigo
+
 def decoder(encoded):
     return_string = ''
     for i in encoded:
