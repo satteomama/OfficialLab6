@@ -8,6 +8,7 @@ def main():
         if option == 1:
             encode = str(input('Please enter your password to encode: '))
             encoded = encoder(encode)
+            print('\nYour password has been encoded and stored!')
         if option == 2:
             print(f'The encoded password is {encoded}, and the original password is {decoder(encoded)}.')
         if option == 3:
@@ -33,4 +34,4 @@ def decoder(encoded):
         return_string = return_string + str(subtract)
     return return_string
 
-main()
+
